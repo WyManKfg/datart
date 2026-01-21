@@ -36,6 +36,7 @@ import {
   RoseChart,
   ScatterOutlineMapChart,
   Scorecard,
+  SeamlessScrollChart,
   StackAreaChart,
   StackBarChart,
   StackColumnChart,
@@ -132,6 +133,7 @@ class ChartManager {
       new ScatterOutlineMapChart(),
       new BasicGaugeChart(),
       new BasicRichText(),
+      new SeamlessScrollChart(),
     ];
   }
 }
